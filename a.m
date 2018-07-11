@@ -1,2 +1,2 @@
 %hi there 
-% c = +b;
+% c = a+b;
