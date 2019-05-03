@@ -2844,7 +2844,7 @@ hObj(1)=plot(NaN,'b','Marker','o','LineWidth',2,'MarkerEdgeColor','k','MarkerFac
 hObj(2)=plot(NaN,'b','Marker','o','LineWidth',2,'MarkerEdgeColor','k','MarkerFaceColor','b','LineStyle','none','MarkerSize',12);
 lg=legend(hObj,{'My Data 1','My Data 2'});hFig = figure;
 hold on;
-hAx = axes(hFig);
+hAx = axes(hFig);    
 hScatter= scatter(hAx,1:10,1:10,'b');
 hold on;
 hObj = gobjects;
